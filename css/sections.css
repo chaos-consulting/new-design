@@ -35,8 +35,12 @@
     display: none;
 }
 
-.what-we-do {
-    background-color: #F1F1F1;
+/*.what-we-do {*/
+    /*background-color: #F1F1F1;*/
+/*}*/
+
+.what-we-do img {
+    width: 100%;
 }
 
 /* Values
