@@ -1,0 +1,13 @@
+.hl {
+    background-color: #33C3F0;
+}
+
+.project h1 {
+    background-color: yellow;
+    font-size: 2.4rem;
+}
+
+.project {
+    margin-top: 50px;
+    text-align: center;
+}
