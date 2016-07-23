@@ -1,7 +1,9 @@
 {
   "name": "new-design",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "Skeleton-Sass": "skeleton-scss#*"
+  },
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.5.3"
