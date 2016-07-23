@@ -1,0 +1,38 @@
+$angle: 3deg;
+$even-color: #FF5722;
+$odd-color: #000000;
+
+.se-container{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 150px;
+}
+
+.se-slope{
+  margin: 0 -50px;
+  transform-origin: left center;
+
+  &:nth-child(odd) {
+    background: $odd-color;
+    transform: rotate($angle);
+    margin-top: -200px;
+
+    .se-content {
+      transform: rotate(-$angle);
+      color: $even-color;
+      padding: 130px 100px 250px 100px;
+    }
+  }
+
+  &:nth-child(even) {
+    background: $even-color;
+    transform: rotate(-$angle);
+
+    .se-content {
+      transform: rotate($angle);
+      color: $odd-color;
+      padding: 150px 100px 250px 100px;
+    }
+  }
+}
