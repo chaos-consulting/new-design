@@ -2,7 +2,8 @@
   "name": "new-design",
   "private": true,
   "dependencies": {
-    "Skeleton-Sass": "skeleton-scss#*"
+    "Skeleton-Sass": "skeleton-scss#*",
+    "font-awesome": "fontawesome#^4.6.3"
   },
   "devDependencies": {
     "chai": "^3.5.0",
